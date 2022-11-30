@@ -1,0 +1,23 @@
+{% extends '_templates/base.njk' %}
+
+{% set relative_path = "../" %}
+
+{% block page_title %}{{ name }}{% endblock %}
+
+{% block page_description %} More about {{ name }} {% endblock %}
+
+{% block content %}
+  <article class="container">
+    <div class="row">
+      <div class="col-sm-4">
+          <img src="../img/{{ slug }}.jpg" alt="{{ image_alt }}" class="img-fluid mb-4">
+      </div>
+      <div class="col-sm-8">
+          <h1>{{ name }}</h1>
+          <p>{{ description }}</p>
+          <p>{{ top_issues }}</p>
+          <p>The photos and information are courtesy of {{ name}}'s <a href="{{ website}}" target="_blank"> campaign website</a>. </p>
+      </div>
+    </div>
+  </article>
+{% endblock %}

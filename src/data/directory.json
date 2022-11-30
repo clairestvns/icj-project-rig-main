@@ -1,0 +1,23 @@
+{
+    "candidates": [
+        {
+            "name": "Celia Israel",
+            "slug": "CeliaIsrael",
+            "image": "CeliaIsrael.jpeg",
+            "image_alt": "A portrait of mayoral candidate Celia Israel in Downtown Austin",
+            "description": "Celia Israel is currently a state representative. Israel wants to make Austin a better city for all its inhabitants.",
+            "top_issues": "Her top issues include adressing Austin's housing and affordability crisis.",
+            "website": "https://www.celiaforaustin.com/"
+
+        },
+        {
+            "name": "Kirk Watson",
+            "slug": "KirkWatson",
+            "image": "KirkWatson.jpg",
+            "image_alt": "A portrait of mayoral candidate Kirk Watson smiling",
+            "description": "Kirk Watson was formerly mayor of Austin and a state senator.",
+            "top_issues": "Watson's top issues include adressing Austin's rising cost of living, homelessness, systemic racism, public safety, transportation, and managing Austin's success.",
+            "website": "https://www.kirkwatson.com/"
+        }
+    ]
+}

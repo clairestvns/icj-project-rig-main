@@ -20,7 +20,30 @@
 
 // Import partials
 @import "nav";
+body {
+  background-color: #e6e6ff;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+  font-size: 40px;
+  color: #000099
+}
+
+h2 {
+  color:#000033;
+  font-size: 24px;
+}
+
+p {
+  color: #000033;
+  font-size: 20px;
+}
 
 h3 {
   font-size: 1.5rem;
+}
+
+.bg-custom {
+  background-color: #000033;
 }
